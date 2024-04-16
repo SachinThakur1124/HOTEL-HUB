@@ -1,0 +1,53 @@
+.mail {
+  width: 93.4%;
+  margin-top: 50px;
+  background-color: #003580;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.mailInputContainer > input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 30px;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e;
+}
+
+.mailDesc {
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c,
+    0px 3px 0 #2a2a2a;
+}
+
+.mailTitle {
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c,
+    0px 3px 0 #2a2a2a, 0px 4px 0 #282828, 0px 5px 0 #262626, 0px 6px 0 #242424,
+    0px 7px 0 #222, 0px 8px 0 #202020;
+}
+
+.mailInputContainer > button {
+  height: 40px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c,
+    0px 3px 0 #2a2a2a;
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 12px 15px 2px;
+}
+
+.mailInputContainer > button:active {
+  transform: translateY(3px);
+  text-shadow: none;
+  box-shadow: none;
+}

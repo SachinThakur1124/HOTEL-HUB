@@ -1,0 +1,200 @@
+.header {
+  top: -60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 60vh;
+}
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.headerContainer {
+  z-index: 3;
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0 100px 0;
+}
+
+.headerContainer.listMode {
+  margin: 20px 0 0px 0;
+}
+
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.headerListItem {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 10px;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c,
+    0px 3px 0 #2a2a2a, 0px 4px 0 #282828, 0px 5px 0 #262626;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.headerListItem:active {
+  transform: translateY(3px);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.headerDesc {
+  margin: 20px 0;
+}
+
+.headerBtn {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  font-weight: 600;
+  margin-top: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 8px 10px 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.headerBtn:active {
+  transform: translateY(3px);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.headerBtn2 {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 8px 10px 2px;
+  transition: all 0.5s ease;
+}
+
+.headerBtn2:active {
+  transform: translateY(3px);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.headerTitle {
+  margin-top: 100px;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c,
+    0px 3px 0 #2a2a2a, 0px 4px 0 #282828, 0px 5px 0 #262626, 0px 6px 0 #242424,
+    0px 7px 0 #222, 0px 8px 0 #202020;
+}
+
+.headerSearch {
+  -webkit-box-shadow: 8px 5px 46px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 5px 46px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 8px 5px 46px -3px rgba(0, 0, 0, 0.75);
+}
+
+.headerDesc {
+  margin-top: 40px;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c,
+    0px 3px 0 #2a2a2a, 0px 4px 0 #282828, 0px 5px 0 #262626;
+}
+
+.headerSearch {
+  height: 30px;
+  background-color: white;
+  border: 3px solid orange;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 30px;
+  bottom: -25px;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e;
+}
+
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+  text-shadow: -1px -1px 1px #fff, 0px 1px 0 #2e2e2e;
+}
+
+.headerIcon {
+  color: lightgray;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  color: black;
+}
+
+.optionCounterBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.optionCounterBtn:disabled {
+  cursor: not-allowed;
+}
