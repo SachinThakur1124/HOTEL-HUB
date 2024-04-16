@@ -61,9 +61,7 @@ const Login = () => {
         <div className="left">
           <h1>Welcome User</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-            alias totam numquam ipsa exercitationem dignissimos, error nam,
-            consequatur.
+          Welcome to our Hotel Booking Site! We're thrilled to have you join our community of travelers and explorers
           </p>
           <span>Don't you have an account?</span>
           <Link to="/register">

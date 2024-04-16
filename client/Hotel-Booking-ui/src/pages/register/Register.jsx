@@ -57,11 +57,9 @@ const Register = () => {
         <div className="register">
             <div className="card">
                 <div className="left">
-                    <h1>Hotelier</h1>
+                    <h1>HOTEL HUB</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-                        alias totam numquam ipsa exercitationem dignissimos, error nam,
-                        consequatur.
+                    Welcome to our Hotel Booking Site! Are you ready to embark on unforgettable journeys and discover incredible destinations? Let's get started by creating your account.
                     </p>
                     <span>Do you have an account?</span>
                     <Link to="/login">
